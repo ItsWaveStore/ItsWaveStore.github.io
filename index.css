@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E8E0F7;
+    color: #480E8A;
+    text-align: center;
+    padding: 0;
+    direction: rtl;
+    margin: 0; /* Ensure no margin around the body */
+}
+
+.header {
+    font-size: 4em; /* Adjusted for better responsiveness */
+    color: #480E8A;
+    margin: 1em 0;
+}
+
+.header2 {
+    font-size: 2em; /* Adjusted for better responsiveness */
+    color: #480E8A;
+}
+
+.Button_gayd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between buttons */
+    margin: 1em 0;
+    font-size: 1.5em; /* Adjusted for better responsiveness */
+}
+
+.Button_gayd a {
+    text-decoration: none;
+    color: purple;
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 25px;
+    border: 2px solid purple;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.Button_gayd a.contact {
+    border-color: red;
+    color: red;
+}
+
+.products_name {
+    font-size: 2.5em; /* Adjusted for better responsiveness */
+    color: #00b2ff;
+    margin: 2em 0;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between product items */
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.product {
+    background-color: #f0f0f0;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 3px;
+    box-sizing: border-box;
+    flex: 1 1 calc(50% - 20px); /* Two products per row with some gap */
+    max-width: calc(50% - 20px); /* Two products per row with some gap */
+}
+
+.product img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+.product-name {
+    margin-top: 10px;
+    font-size: 1.5em; /* Adjusted for better responsiveness */
+    color: purple;
+}
+
+.product-price {
+    color: red;
+    font-size: 1.2em; /* Adjusted for better responsiveness */
+}
+
+/* Media queries for responsive design */
+@media (min-width: 576px) { /* Small screens, tablets */
+    .product {
+        flex: 1 1 calc(50% - 20px); /* Two products per row */
+        max-width: calc(50% - 20px); /* Two products per row */
+    }
+}
+
+@media (min-width: 768px) { /* Medium screens, small desktops */
+    .product {
+        flex: 1 1 calc(33.33% - 20px); /* Three products per row */
+        max-width: calc(33.33% - 20px); /* Three products per row */
+    }
+}
+
+@media (min-width: 992px) { /* Large screens, desktops */
+    .product {
+        flex: 1 1 calc(25% - 20px); /* Four products per row or more depending on screen size */
+        max-width: calc(25% - 20px); /* Four products per row or more depending on screen size */
+    }
+}
+
+@media (max-width: 480px) { /* Extra small screens */
+    .header {
+        font-size: 2.5em;
+    }
+
+    .header2 {
+        font-size: 1.2em;
+    }
+
+    .Button_gayd {
+        font-size: 1em;
+    }
+
+    .products_name {
+        font-size: 1.5em;
+    }
+
+    .product-name {
+        font-size: 1em;
+    }
+
+    .product-price {
+        font-size: 0.9em;
+    }
+}
+
+.footer {
+    background-color: #D6C6F5; /* Darker shade of the background color */
+    color: #480E8A;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Changed from fixed to relative */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+
+.social-links {
+    margin: 10px 0;
+    padding-bottom: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #480E8A;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+.social-links a:hover {
+    color: #3A0D6C; /* Darker shade on hover */
+}
+
+.footer-text {
+    font-size: 1em;
+}
