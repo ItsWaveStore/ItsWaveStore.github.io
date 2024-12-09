@@ -106,7 +106,6 @@ body {
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 50px;
   font-size: 1.5em;
   /* Adjusted for better responsiveness */
   color: purple;
@@ -114,7 +113,6 @@ body {
 
 #alt1 .product-price {
   color: red;
-  margin-top: -45px;
   margin-right: auto;
   margin-left: auto;
   font-size: 1.2em;
