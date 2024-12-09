@@ -113,6 +113,7 @@ body {
 
 #alt1 .product-price {
   color: red;
+  margin-top: auto;
   margin-right: auto;
   margin-left: auto;
   font-size: 1.2em;
