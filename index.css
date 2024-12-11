@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   /* Ensure padding and borders are included in the element's total width and height */
 }
 
@@ -14,18 +16,58 @@ body {
   /* Ensure no margin around the body */
 }
 
-.header {
-  font-size: 4em;
-  /* Adjusted for better responsiveness */
-  color: #480E8A;
-  margin: 1em 0;
+h2 {
+  font-weight: normal;
+  font-family: Harmattan;
+  font-size: 2em;
+}
+
+.icon img {
+  width: 20%;
+  height: auto;
 }
 
 .header2 {
+  font-weight: normal;
+  font-family: Harmattan;
   font-size: 2em;
-  /* Adjusted for better responsiveness */
-  color: #480E8A;
 }
+
+.socials {
+  display: inline-grid;
+  justify-items: center;
+}
+
+
+
+
+#ig {
+  background-color: #8134AF;
+}
+
+#tt {
+  background-color: #0d0d0d;
+}
+
+#fb {
+  background-color: #3b5998;
+}
+
+.socials a {
+  color: #f2ddff;
+  /*border: 0.1em solid #480E8A;*/
+  width: 40%;
+  margin: 0.5em;
+  padding: 0.8em;
+  text-decoration: none;
+}
+
+.socials img {
+  width: 10%;
+  height: auto;
+}
+
+
 
 .Button_gayd {
   display: flex;
