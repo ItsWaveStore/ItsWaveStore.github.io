@@ -83,13 +83,15 @@ h2 {
 }
 
 .space {
-  max-width: 22.8em;
+  max-width: 25em;
   max-height: 50em;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .space img {
-  width: 22.8em;
+  width: 25em;
   height: 50em;
 }
 
