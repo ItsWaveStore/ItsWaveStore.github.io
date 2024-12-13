@@ -13,6 +13,7 @@ body {
   padding: 0;
   direction: rtl;
   margin: 0;
+
   /* Ensure no margin around the body */
 }
 
@@ -36,37 +37,61 @@ h2 {
 .socials {
   display: inline-grid;
   justify-items: center;
+  font-family: cursive;
 }
 
 
 
 
 #ig {
-  background-color: #8134AF;
+  box-shadow: 0 0 0.7em #8134AF;
+  background-image: url("photos/btnbg.png");
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  border-radius: 1em;
+  color: #8134AF;
 }
 
 #tt {
-  background-color: #0d0d0d;
+  box-shadow: 0 0 0.7em #0d0d0d;
+  background-image: url("photos/btnbg.png");
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  border-radius: 1em;
+  color: #0d0d0d;
 }
 
 #fb {
-  background-color: #3b5998;
+  box-shadow: 0 0 0.7em #3b5998;
+  background-image: url("photos/btnbg.png");
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  border-radius: 1em;
+  color: #3b5998;
 }
 
 .socials a {
   color: #f2ddff;
   /*border: 0.1em solid #480E8A;*/
-  width: 40%;
+  width: 55%;
   margin: 0.5em;
   padding: 0.8em;
   text-decoration: none;
 }
 
-.socials img {
-  width: 10%;
-  height: auto;
+.space {
+  max-width: 22.8em;
+  max-height: 50em;
+  overflow: hidden;
 }
 
+.space img {
+  width: 22.8em;
+  height: 50em;
+}
 
 
 .Button_gayd {
